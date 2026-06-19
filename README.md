@@ -2,7 +2,11 @@
 
 This repository contains PyTorch code for selected experiments in:
 
-**Unsupervised Deep Equilibrium Model Learning for Large-Scale Channel Estimation with Performance Guarantees**
+**Unsupervised Deep Equilibrium Model Learning for Large-Scale Channel Estimation With Performance Guarantees**
+
+Paper: IEEE Transactions on Signal Processing, vol. 74, pp. 2347-2363, 2026
+
+DOI: [10.1109/TSP.2026.3694099](https://doi.org/10.1109/TSP.2026.3694099)
 
 The release supports DEQ-GSURE, DEQ-NMSE, DNN, LDGEC, and classic OMP/AMP/OAMP baselines for large-scale channel estimation. The provided scripts cover DeepMIMO O1, DeepMIMO O2 generalization, and synthetic sparse-channel experiments, including the results used for Fig. 4, Fig. 7-Fig. 11, Table 3, and Table 4.
 
@@ -12,7 +16,6 @@ The code was run on the following local environment:
 
 - OS: Windows 10
 - GPU: 4 x NVIDIA GeForce RTX 3090, 24 GB each
-- NVIDIA driver: 551.78
 - Python: 3.10.6
 - PyTorch: 2.1.2+cu121
 - CUDA: 12.1
@@ -136,6 +139,22 @@ python plot.py --nmse_vs_sigma_e
 ```
 
 Figures are saved in `figures/`, and numerical plotting results are saved in `results/`.
+
+## Citation
+
+If you find this repository useful in your research, please cite:
+
+```bibtex
+@article{tian2026deqgsure,
+  author  = {Haotian Tian and Lixiang Lian},
+  title   = {Unsupervised Deep Equilibrium Model Learning for Large-Scale Channel Estimation With Performance Guarantees},
+  journal = {IEEE Transactions on Signal Processing},
+  volume  = {74},
+  pages   = {2347--2363},
+  year    = {2026},
+  doi     = {10.1109/TSP.2026.3694099}
+}
+```
 
 ## Acknowledgements
 
