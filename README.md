@@ -148,7 +148,7 @@ If you find this repository useful in your research, please cite:
 @article{tian2026deqgsure,
   author  = {Haotian Tian and Lixiang Lian},
   title   = {Unsupervised Deep Equilibrium Model Learning for Large-Scale Channel Estimation With Performance Guarantees},
-  journal = {IEEE Transactions on Signal Processing},
+  journal = IEEE_J_SP,
   volume  = {74},
   pages   = {2347--2363},
   year    = {2026},
